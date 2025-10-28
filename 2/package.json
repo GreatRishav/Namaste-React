@@ -1,0 +1,22 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is namaste-react",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreatRishav/Namaste-React.git"
+  },
+  "author": "Rishav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreatRishav/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/GreatRishav/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
