@@ -1,0 +1,49 @@
+.body
+{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.res-container
+{
+    display: flex;
+    gap: 30px;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-containers
+{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+button
+{
+    cursor: pointer;
+}
+
+.search
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: aqua;
+}
+.search input
+{
+    height: 22px;
+}
+.search-icon
+{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+

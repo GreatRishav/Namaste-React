@@ -1,0 +1,39 @@
+.header
+{
+    height: 10vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+
+}
+.Logo-container
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.Logo-container img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.Logo-container :hover
+{
+    transform: scale(1.1);
+}
+.ul-list
+{
+    display: flex;
+    gap: 3em;
+}
+li
+{   
+    list-style: none;
+    margin-right: 30px;
+}
